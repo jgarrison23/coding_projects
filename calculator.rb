@@ -3,4 +3,10 @@ def subtract (x, y)
 
 end
 
-subtract(5,3)
+puts "gimmme a number"
+x = gets.chomp.to_i
+
+puts "gimmme another number"
+y = gets.chomp.to_i
+
+subtract(x,y)
